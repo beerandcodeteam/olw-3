@@ -34,6 +34,6 @@ Por padrão, não é necessária nenhuma configuração no arquivo *.env* do pro
 
 ### Demais duvidas assista nosso vídeo de primeiros passos
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=nTQUwghvy5Q" target="_blank">
+<a href="https://www.youtube.com/watch?v=dY2gsUe_6Ow" target="_blank">
  <img src="https://img.youtube.com/vi/dY2gsUe_6Ow/maxresdefault.jpg" alt="Watch the video" width="650" />
 </a>
