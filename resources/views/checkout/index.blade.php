@@ -15,36 +15,24 @@
                         <dt class="text-lg font-medium text-primary-200">Resumo</dt>
                     </dl>
 
-                    <ul role="list" class="divide-y divide-white divide-opacity-10 text-sm font-medium">
-
-                        <li class="flex items-start space-x-4 py-6">
-                            <img src="https://tailwindui.com/img/ecommerce-images/checkout-page-07-product-01.jpg" alt="Front of zip tote bag with white canvas, white handles, and black drawstring top." class="h-20 w-20 flex-none rounded-md object-cover object-center">
-                            <div class="flex-auto space-y-1">
-                                <h3 class="text-white">High Wall Tote</h3>
-                                <p class="text-primary-200">White and black</p>
-                                <p class="text-primary-200">15L</p>
-                            </div>
-                            <p class="flex-none text-base font-medium text-secondary-300">$210.00</p>
-                        </li>
-
-                    </ul>
+                    <x-checkout.product-list>
+                        <x-checkout.product-item
+                                name="High Wall Tote"
+                                price="210,00"
+                                :features="['White and black', '15L']"
+                                quantity="2"
+                                image="https://tailwindui.com/img/ecommerce-images/checkout-page-07-product-01.jpg"
+                        />
+                    </x-checkout.product-list>
 
                     <dl class="space-y-6 border-t border-white border-opacity-10 pt-6 text-sm font-medium">
-                        <div class="flex items-center justify-between">
-                            <dt class="text-primary-200">Subtotal</dt>
-                            <dd class="text-secondary-300">R$ 570,00</dd>
-                        </div>
 
-                        <div class="flex items-center justify-between">
-                            <dt class="text-primary-200">Frete</dt>
-                            <dd class="text-secondary-300">R$ 25,00</dd>
-                        </div>
+                        <x-checkout.summary-item title="Subtotal" value="210,00" />
+                        <x-checkout.summary-item title="Frete" value="0" />
+                        <x-checkout.summary-item title="Total"  value="210,00" :is-last="true" />
 
-                        <div class="flex items-center justify-between border-t border-white border-opacity-10 pt-6 text-white">
-                            <dt class="text-base text-primary-200">Total</dt>
-                            <dd class="text-base text-secondary-300">R$ 642,60</dd>
-                        </div>
                     </dl>
+
                 </div>
             </section>
 
