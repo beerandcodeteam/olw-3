@@ -6,5 +6,5 @@
 
 >
     <dt class="text-primary-200">{{ $title }}</dt>
-    <dd class="text-secondary-300">{{ $value }}</dd>
+    <dd class="text-secondary-300">@money($value)</dd>
 </div>

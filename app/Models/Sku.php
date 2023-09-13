@@ -27,4 +27,11 @@ class Sku extends Model
     {
         return $this->belongsTo(Product::class);
     }
+
+    public function features(): BelongsToMany
+    {
+        return $this->belongsToMany(Feature::class)
+            ->using(FeatureSku::class)
+            ->withPivot('value');
+    }
 }

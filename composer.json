@@ -10,6 +10,8 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
+        "laravellegends/pt-br-validator": "^10.0",
+        "livewire/livewire": "^3.0",
         "mercadopago/dx-php": "2.5.5"
     },
     "require-dev": {
