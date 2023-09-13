@@ -37,3 +37,8 @@ Por padrão, não é necessária nenhuma configuração no arquivo *.env* do pro
 <a href="https://www.youtube.com/watch?v=dY2gsUe_6Ow" target="_blank">
  <img src="https://img.youtube.com/vi/dY2gsUe_6Ow/maxresdefault.jpg" alt="Watch the video" width="650" />
 </a>
+
+
+### Modelagem do Banco de dados do projeto
+
+<a href="https://lh3.googleusercontent.com/drive-viewer/AITFw-xAjtWvolMoIq55gNm4bthuJug69GIyLFOupZbwO9urEdSvf2RLBZ5-ShK4wF8hwFsqw2UwtMhl4jufZoHaBimQd-Ho=s1600?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xAjtWvolMoIq55gNm4bthuJug69GIyLFOupZbwO9urEdSvf2RLBZ5-ShK4wF8hwFsqw2UwtMhl4jufZoHaBimQd-Ho=s1600" /> </a>
