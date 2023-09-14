@@ -16,6 +16,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "@mercadopago/sdk-js": "^0.0.3"
+        "@mercadopago/sdk-js": "^0.0.3",
+        "@ryangjchandler/alpine-clipboard": "^2.2.0"
     }
 }

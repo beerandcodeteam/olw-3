@@ -32,6 +32,10 @@
     <div class="mt-10">
         <x-section-title title="Pagamento"/>
 
+        <div>
+            @error('payment') <span class="text-sm text-red-600">{{ $message }}</span> @enderror
+        </div>
+
         <div class="mt-4 w-full flex flex-col rounded-md border border-primary-200 p-4 divide-y divide-primary-200 divide-opacity-10">
 
             <label
